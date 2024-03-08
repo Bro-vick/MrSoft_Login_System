@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: lavender;
+}
+.navbar{
+    display: flex;
+    background-color: darkcyan;
+    justify-content: space-between;
+    color: whitesmoke;
+    padding: 15px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+}
+li{
+    margin: 10px;
+}
+li:hover{
+    color: blue;
+    cursor: pointer;
+}
+.profile{
+    padding: 10px;
+    background-color: azure;
+    font-size: 17px;
+    font-style: italic;
+    color: blue;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.profile a{
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border-radius: 20px;
+    width: 100px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.profile p{
+    margin-bottom: 8px;
+}
